@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% if title %}
+        <title>Crapp Blog - {{ title }}</title>
+    {% else %}
+        <title>Crapp Blog</title>
+    {% endif %}
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
