@@ -30,6 +30,9 @@ def about():
     return render_template('about.html', title='About')
 
 
+@app.route("/javatest")
+def javatest():
+    return render_template('javatest.html')
 
 
 
