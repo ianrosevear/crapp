@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  color: #333333;
+}
+
+
+
+/* Navigation bar */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #333333;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: slateblue;
+}
+
+
+
+/* contents */
+.contents {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+
+/* crossword (grid + clues) */
+.crossword {
+  display: grid;
+  grid-template-columns: 350px 1fr 1fr;
+}
+
+
+
+/* grid */
+.cell-container {
+  max-width: 345px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+}
+
+.cell {
+  position: relative;
+  flex-basis: calc(20%);
+  margin: 0px;
+  border: 1px solid;
+  box-sizing: border-box;
+
+  /* not highlightable */
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  cursor: default;
+}
+
+.cell::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.cell .content {
+  position: absolute;
+  top: 5%; 
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  font-size: 2em;
+
+  display: flex;               
+  justify-content: center;     
+  align-items: center;        
+}

@@ -2,6 +2,7 @@ from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
+dimensions = {'width': 5, 'height': 5}
 
 posts = [
     {
@@ -28,6 +29,11 @@ def home():
 @app.route("/about")
 def about():
     return render_template('about.html', title='About')
+
+
+@app.route("/crossword")
+def crossword():
+    return render_template('crossword.html', dimensions=dimensions, title='Crossword Solving Interface')
 
 
 

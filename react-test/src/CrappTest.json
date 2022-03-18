@@ -1,0 +1,134 @@
+{
+  "copyright": "2022",
+  "solution": [
+    [
+      "#",
+      "V",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "D",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "A",
+      "G",
+      "A",
+      "I",
+      "N"
+    ],
+    [
+      "B",
+      "U",
+      "N",
+      "D",
+      "T"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Ian Rosevear",
+  "puzzle": [
+    [
+      "#",
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      "#"
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Crapp Test",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 5,
+    "height": 5
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Imprecise"
+      ],
+      [
+        2,
+        "Fatuous"
+      ],
+      [
+        3,
+        "Corrosive compounds"
+      ],
+      [
+        4,
+        "It starts on Ash Wednesday"
+      ],
+      [
+        5,
+        "Taunts after a Fortnite kill, maybe"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "Tiny little tube"
+      ],
+      [
+        5,
+        "Get your groove on"
+      ],
+      [
+        6,
+        "Once more"
+      ],
+      [
+        7,
+        "Cake type"
+      ],
+      [
+        8,
+        "Chocolate brand"
+      ]
+    ]
+  }
+}
